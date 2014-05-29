@@ -9,7 +9,10 @@ This smart assertion will give an error message even under release mode and paus
 
 And also, the output of the original `assert` is ugly and hard to read. The output of smart_assert give the same error message in a much more elegent way. 
 
-This is only tested under windows. 
+Notes:
+
+1. This is only compatible under windows. 
+2. Its usage is similar to static_assert in C++ 11
 
 Sample usage
 ===============
