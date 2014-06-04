@@ -5,13 +5,11 @@ Assertion won't give any allerts under release mode, which sometimes might hide 
 
 However, we sometime may prefer to develop the project under release mode simply because of running speed. 
 
-This smart assertion will give an error message even under release mode and pause the program by `system("pause")`. 
-
-And also, the output of the original `assert` is ugly and hard to read. The output of smart_assert give the same error message in a much more elegent way. 
+This smart assertion will give an error message output as red text on terminal. 
 
 Notes:
 
-1. This is only compatible under windows. 
+1. This is only compatible under Linux. 
 2. Its usage is similar to static_assert in C++ 11
 
 Sample usage
